@@ -1,0 +1,48 @@
+body{
+    background-color: #252926;
+}
+
+.Férgio{
+    background-color: darkslategray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(230, 250, 240);
+}
+
+.ul_home{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.Tudo{
+    display: flex;
+}
+
+.Topicos{
+    background-color: #AF8C53;    
+    width: 300px;
+    height: 300px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ul_topicos{
+    justify-content:center;
+    list-style:none;
+}
+
+.intro{
+    text-align: center;
+    width: 1600px;
+    color:mintcream;
+
+}
+
+.imagens{
+    display: grid;
+    
+}
