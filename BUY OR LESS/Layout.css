@@ -1,23 +1,35 @@
 body{
     background-color: darkslategrey;
     display: flex;
+    gap: 85px;
 }
 
 .Um{
     display: flex;
     flex-direction: column;
+    width: 400px;
+    gap: 35px;
 }
 
 .logo{
-    margin-left: 75px;
+    margin-left: 45px;
     margin-top: -25px;
     display: grid;
 }
 
 .clientes{
+    align-items: center;
+    background-color: rgb(26, 92, 158);
+    border-radius: 20px;
+}
+
+.OK{
+    color: antiquewhite;
+    margin-left: 15px;
+}
+
+.Jorge{
     display: flex;
-    justify-content: space-around;
-    text-align: center;
 }
 
 .conteudo{
@@ -27,6 +39,5 @@ body{
     width: 800px;
     background-color: #467272;
     border-radius: 20px;
-    margin-left: 50px;
 }
 
