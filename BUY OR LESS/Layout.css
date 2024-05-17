@@ -1,0 +1,32 @@
+body{
+    background-color: darkslategrey;
+    display: flex;
+}
+
+.Um{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    margin-left: 75px;
+    margin-top: -25px;
+    display: grid;
+}
+
+.clientes{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    width: 800px;
+    background-color: #467272;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
