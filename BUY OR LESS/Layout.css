@@ -12,15 +12,17 @@ body{
 }
 
 .logo{
-    margin-left: 45px;
-    margin-top: -25px;
+    margin-left: 110px;
+    margin-top: -10px;
     display: grid;
 }
 
 .clientes{
     align-items: center;
-    background-color: rgb(26, 92, 158);
+    background-color: #887b50;
     border-radius: 20px;
+    margin-left: 15px;    
+    margin-right: -80px;
 }
 
 .OK{
@@ -32,12 +34,52 @@ body{
     display: flex;
 }
 
+.anna{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.MDS{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
 .conteudo{
     display: flex;
     justify-content: center;
-    height: 700px;
-    width: 800px;
-    background-color: #467272;
+    height: 480px;
+    width: 915px;
+    background-color: #a6a777;
+    color: aquamarine;
     border-radius: 20px;
+    padding-left: 20px;
+    margin-left: 190px;
+}
+
+.conteudo2{
+    height: 480px;
+    width: 915px;
+    background-color: #a6a777;
+    color: aquamarine;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-left: 190px;
+}
+
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 850px;
+}
+
+.Acesso{
+    border-radius: 20px;
+    height: 35px;
+    width: 150px;
+    background-color: rgb(132, 248, 132);
 }
 
