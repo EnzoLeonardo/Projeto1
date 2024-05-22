@@ -23,6 +23,8 @@ body{
     border-radius: 20px;
     margin-left: 15px;    
     margin-right: -80px;
+    color: whitesmoke;
+    text-align: center;
 }
 
 .OK{
@@ -35,6 +37,15 @@ body{
 }
 
 .anna{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.lana{
+    display: flex;
+}
+
+.joão{
     display: flex;
     flex-direction: row-reverse;
 }
@@ -52,17 +63,17 @@ body{
     height: 480px;
     width: 915px;
     background-color: #a6a777;
-    color: aquamarine;
+    color: rgb(255, 255, 255);
     border-radius: 20px;
     padding-left: 20px;
     margin-left: 190px;
 }
 
 .conteudo2{
-    height: 480px;
+    height: 360px;
     width: 915px;
     background-color: #a6a777;
-    color: aquamarine;
+    color: rgb(255, 255, 255);
     border-radius: 20px;
     padding-left: 20px;
     margin-left: 190px;
@@ -83,3 +94,9 @@ body{
     background-color: rgb(132, 248, 132);
 }
 
+.assinar{
+    border-radius: 25px;
+    height: 35px;
+    width: 100px;
+    background-color: chartreuse;
+}
