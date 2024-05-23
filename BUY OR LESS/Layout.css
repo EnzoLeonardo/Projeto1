@@ -34,48 +34,61 @@ body{
 
 .Jorge{
     display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .anna{
     display: flex;
     flex-direction: row-reverse;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .lana{
     display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .joão{
     display: flex;
     flex-direction: row-reverse;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .MDS{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 70px;
+    padding-top: 50px;
 }
 
 
 .conteudo{
     display: flex;
-    height: 480px;
+    height: 390px;
     width: 915px;
     background-color: #a6a777;
     color: rgb(255, 255, 255);
-    border-radius: 20px;
+    border-radius: 10px;
     padding-left: 20px;
     margin-left: 190px;
+    padding-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .conteudo2{
-    height: 360px;
+    height: 290px;
     width: 915px;
     background-color: #a6a777;
     color: rgb(255, 255, 255);
-    border-radius: 20px;
+    border-radius: 10px;
     padding-left: 20px;
     margin-left: 190px;
+    padding-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -83,19 +96,22 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 850px;
+    height: 900px;
+    
 }
 
 .Acesso{
-    border-radius: 20px;
-    height: 35px;
-    width: 150px;
+    border-radius: 10px;
+    height: 50px;
+    width: 190px;
     background-color: rgb(132, 248, 132);
+    font-family: monospace;
 }
 
 .assinar{
-    border-radius: 25px;
-    height: 35px;
-    width: 100px;
+    border-radius: 10px;
+    height: 50px;
+    width: 170px;
     background-color: chartreuse;
+    font-family: monospace;
 }
