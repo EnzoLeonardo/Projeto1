@@ -59,7 +59,6 @@ body{
 
 .conteudo{
     display: flex;
-    justify-content: center;
     height: 480px;
     width: 915px;
     background-color: #a6a777;
