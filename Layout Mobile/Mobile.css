@@ -1,0 +1,18 @@
+@media only screen and (max-width: 600px) {
+    body {
+        height: 600px;
+        background: rgb(210,171,25);
+        background: linear-gradient(0deg, #DF8610 0%, #F3491E 100%);
+        background-attachment: fixed;
+    }
+}
+
+.topo{
+    display: grid;
+    justify-content: center;
+    color: ghostwhite;
+    margin-top: 40px;
+    font-family: Arial;
+    gap: 10px;
+
+}
