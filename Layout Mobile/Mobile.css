@@ -16,3 +16,11 @@
     gap: 10px;
 
 }
+
+.Text1{
+    display: flex;
+    justify-content: center;
+    color: ghostwhite;
+    margin-top: 40px;
+    font-family: Arial;
+}
