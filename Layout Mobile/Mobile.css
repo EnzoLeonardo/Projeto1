@@ -14,13 +14,41 @@
     margin-top: 40px;
     font-family: Arial;
     gap: 10px;
+}
 
+.IMG1{
+    margin-left: 5px;
 }
 
 .Text1{
+    font-family: Arial;
+    color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.Final{
     display: flex;
     justify-content: center;
-    color: ghostwhite;
-    margin-top: 40px;
+}
+
+input{
+    border-radius: 30px;
+    border: none;
     font-family: Arial;
+    height: 65px;
+    width: 170px;
+
+}
+
+.Text2{
+    font-family: Arial;
+    color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
