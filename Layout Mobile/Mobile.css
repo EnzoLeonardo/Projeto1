@@ -5,50 +5,52 @@
         background: linear-gradient(0deg, #DF8610 0%, #F3491E 100%);
         background-attachment: fixed;
     }
-}
 
-.topo{
-    display: grid;
-    justify-content: center;
-    color: ghostwhite;
-    margin-top: 40px;
-    font-family: Arial;
-    gap: 10px;
-}
 
-.IMG1{
-    margin-left: 5px;
-}
+    .topo{
+        display: grid;
+        justify-content: center;
+        color: ghostwhite;
+        margin-top: 40px;
+        font-family: Arial;
+        gap: 10px;
+    }
 
-.Text1{
-    font-family: Arial;
-    color: ghostwhite;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
+    .IMG1{
+        margin-left: 5px;
+    }   
 
-.Final{
-    display: flex;
-    justify-content: center;
-}
+    .Text1{
+        font-family: Arial;
+        color: ghostwhite;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
 
-input{
-    border-radius: 30px;
-    border: none;
-    font-family: Arial;
-    height: 65px;
-    width: 170px;
+    .Final{
+        display: flex;
+        justify-content: center;
+    }
 
-}
+    input{
+        border-radius: 30px;
+        border: none;
+        font-family: Arial;
+        height: 65px;
+        width: 170px;
 
-.Text2{
-    font-family: Arial;
-    color: ghostwhite;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+    }
+
+    .Text2{
+        font-family: Arial;
+        color: ghostwhite;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }   
+
 }
