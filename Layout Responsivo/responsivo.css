@@ -1,0 +1,16 @@
+@media only screen and (max-width: 320px) {
+
+    body{
+        background-color: #86acac;
+    }
+    
+}
+@media only screen and (min-width: 321px) and (max-width: 600px) {
+
+    body{
+        background-color: #2E4444;
+    }
+
+
+    
+}
