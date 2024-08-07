@@ -4,7 +4,35 @@
         background-color: #86acac;
     }
     
+    .Banner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .Logo{
+        margin-left: 20px;
+        color: rgb(247, 241, 241);
+        font-family: sans-serif
+    }
+
+    .btn{
+        display: flex;
+        gap: 10px;
+    }
+
+    input{
+        width: 40px;
+        color: antiquewhite;
+        background-color: rgb(7, 73, 73);
+        border: 0px;
+    }
+
+
+
+    
 }
+
 @media only screen and (min-width: 321px) and (max-width: 600px) {
 
     body{
