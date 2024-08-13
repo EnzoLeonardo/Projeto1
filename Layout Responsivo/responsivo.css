@@ -11,7 +11,7 @@
     }
 
     .Logo{
-        margin-left: 20px;
+        margin-left: 25px;
         color: rgb(247, 241, 241);
         font-family: sans-serif
     }
@@ -26,17 +26,44 @@
         color: antiquewhite;
         background-color: rgb(7, 73, 73);
         border: 0px;
+        border-radius: 10px;
+        height: 35px;
     }
 
     .conteudo{
         display: flex;
         flex-direction: column;
+        gap: 20PX;
         
     }
 
+    .p1{
+        background-color: #123636;
+        color: azure;
+        border-radius: 15px;
+    }
 
-
+    .p2{
+        background-color: #123636;
+        color: azure;
+        border-radius: 15px;
+    }
     
+    .conteudo2{
+        display: flex;
+    }
+
+    .p3{
+        background-color: darkslategray;
+        color: aliceblue;
+        border-radius: 20px;
+    }
+
+    .p4{
+        background-color: darkslategray;
+        color: aliceblue;
+        border-radius: 20px;
+    }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 600px) {
