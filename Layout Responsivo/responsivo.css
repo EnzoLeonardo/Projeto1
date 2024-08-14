@@ -6,12 +6,12 @@
     
     .Banner{
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: space-between;
     }
 
     .Logo{
-        margin-left: 25px;
         color: rgb(247, 241, 241);
         font-family: sans-serif
     }
@@ -51,6 +51,7 @@
     
     .conteudo2{
         display: flex;
+        margin-top: 10px;
     }
 
     .p3{
@@ -69,7 +70,72 @@
 @media only screen and (min-width: 321px) and (max-width: 600px) {
 
     body{
-        background-color: #2E4444;
+        background-color: #86acac;
+    }
+    
+    .Banner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .Logo{
+        margin-left: 35px;
+        color: rgb(247, 241, 241);
+        font-family: sans-serif
+    }
+
+    .btn{
+        display: flex;
+        gap: 10px;
+    }
+
+    input{
+        width: 40px;
+        color: antiquewhite;
+        background-color: rgb(7, 73, 73);
+        border: 0px;
+        border-radius: 10px;
+        height: 35px;
+    }
+
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+        gap: 20PX;
+        
+    }
+
+    .p1{
+        background-color: #123636;
+        color: azure;
+        border-radius: 15px;
+    }
+
+    .p2{
+        background-color: #123636;
+        color: azure;
+        border-radius: 15px;
+    }
+    
+    .conteudo2{
+        display: flex;
+        margin-top: 40px;
+        gap: 100px;
+        margin-right: 25px;
+        margin-left: 25px;
+      }
+
+    .p3{
+        background-color: darkslategray;
+        color: aliceblue;
+        border-radius: 20px;
+    }
+
+    .p4{
+        background-color: darkslategray;
+        color: aliceblue;
+        border-radius: 20px;
     }
 
 
