@@ -12,7 +12,7 @@
     }
 
     .Logo{
-        color: rgb(247, 241, 241);
+        color: rgb(244, 241, 247);
         font-family: sans-serif
     }
 
@@ -43,29 +43,27 @@
         border-radius: 15px;
     }
 
+    
+
     .p2{
         background-color: #123636;
         color: azure;
         border-radius: 15px;
+        width: 285px;
+        height: 125px;
+        text-align: center;
     }
     
-    .conteudo2{
-        display: flex;
-        margin-top: 10px;
-        gap: 10px;
-    }
 
     .p3{
-        background-color: darkslategray;
-        color: aliceblue;
-        border-radius: 20px;
+        background-color: #123636;
+        color: azure;
+        border-radius: 15px;
+        width: 285px;
+        height: 125px;
+        text-align: center;
     }
 
-    .p4{
-        background-color: darkslategray;
-        color: aliceblue;
-        border-radius: 20px;
-    }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 600px) {
@@ -82,7 +80,7 @@
 
     .Logo{
         margin-left: 35px;
-        color: rgb(247, 241, 241);
+        color: rgb(123, 6, 177);
         font-family: sans-serif
     }
 
@@ -93,7 +91,7 @@
 
     input{
         width: 40px;
-        color: antiquewhite;
+        color: rgb(243, 204, 255);
         background-color: rgb(45, 52, 153);
         border: 0px;
         border-radius: 10px;
@@ -109,35 +107,24 @@
 
     .p1{
         background-color: #201649;
-        color: azure;
+        color: rgb(212, 148, 255);
         border-radius: 15px;
+    }
+
+    .conteudo2{
+        display: flex;
     }
 
     .p2{
-        background-color: #201649;
-        color: azure;
-        border-radius: 15px;
-    }
-    
-    .conteudo2{
-        display: flex;
-        margin-top: 40px;
-        gap: 100px;
-        margin-right: 25px;
-        margin-left: 25px;
-        
-      }
-
-    .p3{
         background-color: rgb(47, 53, 79);
-        color: aliceblue;
+        color: rgb(247, 147, 238);
         border-radius: 20px;
         height: 150px;
     }
 
-    .p4{
+    .p3{
         background-color: rgb(47, 53, 79);
-        color: aliceblue;
+        color: rgb(247, 147, 238);
         border-radius: 20px;
         height: 150px;
     }
@@ -194,14 +181,6 @@
         border-radius: 15px;
     }
     
-    .conteudo2{
-        display: flex;
-        margin-top: 40px;
-        gap: 100px;
-        margin-right: 25px;
-        margin-left: 25px;
-        
-      }
 
     .p3{
         background-color: darkslategray;
@@ -210,10 +189,4 @@
         height: 150px;
     }
 
-    .p4{
-        background-color: darkslategray;
-        color: aliceblue;
-        border-radius: 20px;
-        height: 150px;
-    }
 }
