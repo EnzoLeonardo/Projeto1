@@ -71,7 +71,7 @@
 @media only screen and (min-width: 321px) and (max-width: 600px) {
 
     body{
-        background-color: #86acac;
+        background-color: #62668a;
     }
     
     .Banner{
@@ -94,7 +94,7 @@
     input{
         width: 40px;
         color: antiquewhite;
-        background-color: rgb(7, 73, 73);
+        background-color: rgb(45, 52, 153);
         border: 0px;
         border-radius: 10px;
         height: 35px;
@@ -108,13 +108,13 @@
     }
 
     .p1{
-        background-color: #123636;
+        background-color: #201649;
         color: azure;
         border-radius: 15px;
     }
 
     .p2{
-        background-color: #123636;
+        background-color: #201649;
         color: azure;
         border-radius: 15px;
     }
@@ -129,14 +129,14 @@
       }
 
     .p3{
-        background-color: darkslategray;
+        background-color: rgb(47, 53, 79);
         color: aliceblue;
         border-radius: 20px;
         height: 150px;
     }
 
     .p4{
-        background-color: darkslategray;
+        background-color: rgb(47, 53, 79);
         color: aliceblue;
         border-radius: 20px;
         height: 150px;
