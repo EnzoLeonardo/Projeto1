@@ -1,0 +1,78 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    }
+
+.fundo {
+    position: relative;
+    overflow: hidden;
+    }
+
+.fundo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    }
+
+.links {
+    position: absolute;
+    top: 45px;
+    right: 50px;
+    display: flex;
+    gap: 90px;
+    }
+
+.links a {
+    text-decoration: none;
+    color: #fff; 
+    font-size: 18px;
+    transition: color 0.3s;
+    }
+
+.links a:hover {
+    color: #ffcc00; 
+    }
+
+.textoprincipal1 {
+    position: absolute;
+    top: 15%;
+    right: 60px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    }
+
+.textoprincipal2 {
+    position: absolute;
+    top: 29%;
+    color: #fff;
+    right: 10%;
+    max-width: 300px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    }
+
+.buttons {
+    position: absolute;
+    top: 76%;
+    right: 10%;
+    display: flex;
+    gap: 20px;
+    }
+
+.button {
+    padding: 12px 24px;
+    background: linear-gradient(90deg, #ff7e00, #ffcc00);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+.button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+    }
