@@ -1,59 +1,52 @@
-@media only screen and (max-width: 320px) {
-    body{
-        background-color: #eba3dbf8;
-    }
-
-    .container{
-        display: flex;
-        justify-content: center;
-    }
-
-    .titulo{
-        display: flex;
-        text-align: left;
-        width: 400px;
-        color: white;
-        font-family: Arial;
-    }
-
+body{
+    background-color: #eba3dbf8;
 }
 
-@media only screen and (min-width: 321px) and (max-width: 600px) {
-    body{
-        background-color: #eba3dbf8;
-    }
-
-    .container{
-        display: flex;
-        justify-content: center;
-    }
-
-    .titulo{
-        display: flex;
-        text-align: left;
-        width: 900px;
-        color: white;
-        font-family: Arial;
-    }
-
+.modal-active {
+    background-color: rgba(0, 0, 0, 0.5);
+    filter: grayscale(0.8);
 }
 
-@media only screen and (min-width: 601px) {
-    body{
-        background-color: #eba3dbf8;
-    }
+ #modalWindowContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}      
 
-    .container{
-        display: flex;
-        justify-content: center;
-    }
+ #modalWindow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}  
+ input[type="number"][readonly] {
+   background-color: #e9e9e9;
+   border: 1px solid #ccc;
+}
 
-    .titulo{
-        display: flex;
-        text-align: left;
-        width: 900px;
-        color: white;
-        font-family: Arial;
-    }
 
+ input[type="number"]:not([readonly]) {
+   background-color: #fff;
+   border: 1px solid #ccc;
+}
+
+
+ input:disabled,
+    input[readonly] {
+       background-color: #e9e9e9;
+       border: 1px solid #ccc;
+}
+
+
+ input:not(:disabled):not([readonly]) {
+       background-color: #fff;
+       border: 1px solid #ccc;
+}
+ 
+.btn{
+    background-color: #e406b4f8 !important;
+    border-color: #e406b4f8 !important;
+    color: #fff !important;
 }
