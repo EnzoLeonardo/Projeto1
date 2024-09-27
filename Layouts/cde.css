@@ -7,46 +7,62 @@ body{
     filter: grayscale(0.8);
 }
 
- #modalWindowContainer {
+#modalWindowContainer {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }      
 
- #modalWindow {
+#modalWindow {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
    
 }  
- input[type="number"][readonly] {
+ 
+input[type="number"][readonly] {
    background-color: #e9e9e9;
    border: 1px solid #ccc;
 }
 
-
- input[type="number"]:not([readonly]) {
+input[type="number"]:not([readonly]) {
    background-color: #fff;
    border: 1px solid #ccc;
 }
 
 
- input:disabled,
+input:disabled,
     input[readonly] {
        background-color: #e9e9e9;
        border: 1px solid #ccc;
 }
 
 
- input:not(:disabled):not([readonly]) {
+input:not(:disabled):not([readonly]) {
        background-color: #fff;
        border: 1px solid #ccc;
 }
  
+h1{
+    color: #fff;
+    font-family: Arial;
+}
+
+p{
+    color: #fff;
+    font-family: Arial;
+}
+
+label{
+    color: #fff;
+    font-family: Arial;
+}
+
 .btn{
     background-color: #e406b4f8 !important;
     border-color: #e406b4f8 !important;
     color: #fff !important;
+    margin-right: 10px;
 }
