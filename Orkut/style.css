@@ -1,0 +1,111 @@
+body{
+    background-color: #252926;
+}
+
+.Férgio{
+    background-color: darkslategray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(230, 250, 240);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.ul_home{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    
+}
+
+.Tudo{
+    display: flex;
+}
+
+.Topicos{
+    background-color: #AF8C53;    
+    width: 275px;
+    height: 165px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.eventos{
+    text-align: center;
+    color: aliceblue;
+    font-family: monospace;
+}
+
+.ul_topicos{
+    justify-content:center;
+    list-style:none;
+    flex-direction: column;
+    display: flex;
+    gap: 7px;
+}
+
+.intro{
+    text-align: center;
+    width: 1600px;
+    color:mintcream;
+
+}
+
+.imagens1{
+    display: grid;
+    gap: 10px;
+}
+
+.imagens2{
+    display: grid;
+    gap: 15px;
+}
+
+.Equipe{
+    text-align: center;
+    color: #AF8C53;
+}
+
+.membros{
+    display: flex;
+    gap: 150px;
+}
+
+.Gabriela{
+    color: rgb(245, 186, 218);
+    font-family: sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+.Sergio{
+    color: ghostwhite;
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+.Eduardo{
+    color: aquamarine;
+    font-family: sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+.Rafael{
+    color: rgba(241, 68, 68, 0.774);
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+.Maya{
+    color: #AF8C53;
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
